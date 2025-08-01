@@ -305,7 +305,7 @@ header {
 
 .menu-item:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(243, 150, 28, 0.5); /* সেকেন্ডারি কালার শেড */
+  box-shadow: 0 8px 20px rgba(243, 150, 28, 0.5); 
 }
 
 .menu-image {
@@ -313,7 +313,7 @@ header {
   height: 180px;
   object-fit: contain;
   border-radius: var(--border-radius-s);
-  background: none; /* কোনো ব্যাকগ্রাউন্ড নেই */
+  background: none;
   margin-bottom: 15px;
 }
 
@@ -373,13 +373,13 @@ header {
 
 /* Image */
 .testimonial img {
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
   border-radius: var(--border-radius-circle);
   object-fit: cover;
   margin: 0 auto 20px;
   border: 3px solid var(--secondary-color);
-  background: transparent; /* No background */
+  background: transparent; 
 }
 
 /* Text */
